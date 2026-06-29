@@ -5,7 +5,7 @@ public abstract class Problema1_Personaje {
     protected int salud;
     protected Problema1_Inventario inventario;
     protected Problema1_GestorEstados gestorEstados;
-
+  //Grupo 1 
     public Problema1_Personaje(String nombre, int salud) {
         this.nombre = nombre;
         this.salud = salud;
