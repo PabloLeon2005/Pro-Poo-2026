@@ -9,5 +9,8 @@ public class Problema1_JuegodeRoles {
         
         guerrero.getInventario().agregarObjeto(espada);
         guerrero.getInventario().agregarObjeto(escudo);
+        
+        guerrero.getInventario().usarObjetos();
+        guerrero.atacar();
     }
 }
