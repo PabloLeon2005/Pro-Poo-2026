@@ -9,7 +9,6 @@ public class Problema1_GestorEstados {
     public void agregarEstado(Problema1_IEstadoAlterado estado) {
         estados.add(estado);
     }
-
     public void aplicarEstados(Problema1_Personaje personaje) {
         for (Problema1_IEstadoAlterado estado : estados) {
             estado.aplicarEfecto(personaje);
